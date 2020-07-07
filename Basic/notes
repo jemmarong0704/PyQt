@@ -1,0 +1,10 @@
+将.ui文件转成.py文件
+法一：
+在terminal里贴：python -m PyQt5.uic.pyuic first.ui -o first.py
+m和o：一进 一出
+注： terminal里 cd的意思是change directory （要把路径改成和ui一个p路径）
+
+法二：
+pyuic5 first.ui -o first.py （试了下 不太行）
+anaconda (/Users/jemma/anaconda3)  -> pkgs -> pyqt-5.9.2-py37h655552a_2 -> bin
+
